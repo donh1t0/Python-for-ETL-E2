@@ -1,0 +1,4 @@
+###Niega el argumento
+Actuales.filter(
+    ~pl.col('TicketID').str.starts_with('WO')
+)

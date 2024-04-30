@@ -1,0 +1,223 @@
+PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion> .\vEdicion2\Scripts\Activ
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion> pip list
+Package Version
+------- -------
+pip     24.0   
+polars  0.20.18
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion> pip install i
+Collecting ipykernel
+  Using cached ipykernel-6.29.4-py3-none-any.whl.metadata (6.3 kB)
+Collecting comm>=0.1.1 (from ipykernel)
+  Using cached comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy>=1.6.5 (from ipykernel)
+  Using cached debugpy-1.8.1-cp312-cp312-win_amd64.whl.metadata (1.1 kB)
+Collecting ipython>=7.23.1 (from ipykernel)
+  Downloading ipython-8.24.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting jupyter-client>=6.1.12 (from ipykernel)
+  Using cached jupyter_client-8.6.1-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter-core!=5.0.*,>=4.12 (from ipykernel)
+  Using cached jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting matplotlib-inline>=0.1 (from ipykernel)
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+Collecting nest-asyncio (from ipykernel)
+  Using cached nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting packaging (from ipykernel)
+  Using cached packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting psutil (from ipykernel)
+  Using cached psutil-5.9.8-cp37-abi3-win_amd64.whl.metadata (22 kB)
+Collecting pyzmq>=24 (from ipykernel)
+  Downloading pyzmq-26.0.2-cp312-cp312-win_amd64.whl.metadata (6.1 kB)
+Collecting tornado>=6.1 (from ipykernel)
+  Using cached tornado-6.4-cp38-abi3-win_amd64.whl.metadata (2.6 kB)
+Collecting traitlets>=5.4.0 (from ipykernel)
+  Downloading traitlets-5.14.3-py3-none-any.whl.metadata (10 kB)
+Collecting decorator (from ipython>=7.23.1->ipykernel)
+  Using cached decorator-5.1.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel)
+  Using cached jedi-0.19.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting prompt-toolkit<3.1.0,>=3.0.41 (from ipython>=7.23.1->ipykernel)
+  Using cached prompt_toolkit-3.0.43-py3-none-any.whl.metadata (6.5 kB)
+Collecting pygments>=2.4.0 (from ipython>=7.23.1->ipykernel)
+  Using cached pygments-2.17.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting stack-data (from ipython>=7.23.1->ipykernel)
+  Using cached stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting colorama (from ipython>=7.23.1->ipykernel)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting python-dateutil>=2.8.2 (from jupyter-client>=6.1.12->ipykernel)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 k
+Collecting platformdirs>=2.5 (from jupyter-core!=5.0.*,>=4.12->ipykernel)
+  Downloading platformdirs-4.2.1-py3-none-any.whl.metadata (11 kB)
+Collecting pywin32>=300 (from jupyter-core!=5.0.*,>=4.12->ipykernel)
+  Using cached pywin32-306-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Collecting parso<0.9.0,>=0.8.3 (from jedi>=0.16->ipython>=7.23.1->ipykernel)
+  Using cached parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+Collecting wcwidth (from prompt-toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipyker
+  Using cached wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipyke
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting executing>=1.2.0 (from stack-data->ipython>=7.23.1->ipykernel)
+  Using cached executing-2.0.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting asttokens>=2.1.0 (from stack-data->ipython>=7.23.1->ipykernel)
+  Using cached asttokens-2.4.1-py2.py3-none-any.whl.metadata (5.2 kB)
+Collecting pure-eval (from stack-data->ipython>=7.23.1->ipykernel)
+  Using cached pure_eval-0.2.2-py3-none-any.whl.metadata (6.2 kB)
+Using cached ipykernel-6.29.4-py3-none-any.whl (117 kB)
+Using cached comm-0.2.2-py3-none-any.whl (7.2 kB)
+Using cached debugpy-1.8.1-cp312-cp312-win_amd64.whl (4.6 MB)
+Downloading ipython-8.24.0-py3-none-any.whl (816 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 816.5/816.5 kB 8.6 MB/s eta 0:00:00
+Using cached jupyter_client-8.6.1-py3-none-any.whl (105 kB)
+Using cached jupyter_core-5.7.2-py3-none-any.whl (28 kB)
+Downloading matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+Downloading pyzmq-26.0.2-cp312-cp312-win_amd64.whl (770 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 47.5 MB/s eta 0:00:0
+Using cached tornado-6.4-cp38-abi3-win_amd64.whl (436 kB)
+Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.4/85.4 kB 4.7 MB/s eta 0:00:00
+Using cached nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Using cached packaging-24.0-py3-none-any.whl (53 kB)
+Using cached psutil-5.9.8-cp37-abi3-win_amd64.whl (255 kB)
+Using cached jedi-0.19.1-py2.py3-none-any.whl (1.6 MB)
+Downloading platformdirs-4.2.1-py3-none-any.whl (17 kB)
+Using cached prompt_toolkit-3.0.43-py3-none-any.whl (386 kB)
+Using cached pygments-2.17.2-py3-none-any.whl (1.2 MB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pywin32-306-cp312-cp312-win_amd64.whl (9.2 MB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Using cached stack_data-0.6.3-py3-none-any.whl (24 kB)
+Using cached asttokens-2.4.1-py2.py3-none-any.whl (27 kB)
+Using cached executing-2.0.1-py2.py3-none-any.whl (24 kB)
+Using cached parso-0.8.4-py2.py3-none-any.whl (103 kB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Using cached pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Using cached wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Installing collected packages: wcwidth, pywin32, pure-eval, traitlets, tornado, parso, packaging, nest-asyncio, executing, decorator, debugpy, colorama, pythoSuccessfully installed asttokens-2.4.1 colorama-0.4.6 comm-0.2.2 debugpy-1.8.1 (vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion> git config --
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion> git config --
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion> cd .\S3\
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git init
+Initialized empty Git repository in E:/PYTHON FOR ETL/ADDC/Python for ETL/2da_E
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+        Tickets/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git add .\
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Atenciones/Atenciones Centro.xlsx
+        new file:   Atenciones/Atenciones Norte.xlsx
+        new file:   Atenciones/Atenciones Sur.xlsx
+
+Untracked files:
+        Tickets/
+
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git add .\Proceso_ETL.ipynb
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git commit -m "Inicialización de mi ETL"
+[master (root-commit) 1e12bbe] Inicializaci├│n de mi ETL
+ 7 files changed, 31464 insertions(+)
+ create mode 100644 Atenciones/Atenciones Centro.xlsx
+ create mode 100644 Atenciones/Atenciones Norte.xlsx
+ create mode 100644 Atenciones/Atenciones Sur.xlsx
+ create mode 100644 Proceso_ETL.ipynb
+ create mode 100644 Tickets/SinEncabezado.txt
+ create mode 100644 Tickets/Tickets Actual.csv
+ create mode 100644 Tickets/Tickets Historico.txt
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git status
+On branch master
+nothing to commit, working tree clean
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Proceso_ETL.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git add .\Proceso_ETL.ipynb
+warning: in the working copy of 'Proceso_ETL.ipynb', LF will be replaced by CRLF the next time Git touches it
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git config --global core.autocrlf false
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git add .\Proceso_ETL.ipynb
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Proceso_ETL.ipynb
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git commit -m "Lectura txt Sin Encabezado"
+[master 0a0a153] Lectura txt Sin Encabezado
+On branch master
+nothing to commit, working tree clean
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> ^C
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git commit -m "Lectura de Tickets Historico"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+        modified:   Proceso_ETL.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git log
+commit 0a0a15361f8a72bdbe14036074130849cf4732e5 (HEAD -> master)
+Author: David <doninahuaman@gmail.com>
+Date:   Sun Apr 28 19:08:09 2024 -0500
+
+:...skipping...
+commit 0a0a15361f8a72bdbe14036074130849cf4732e5 (HEAD -> master)
+Author: David <doninahuaman@gmail.com>
+Date:   Sun Apr 28 19:08:09 2024 -0500
+
+    Lectura txt Sin Encabezado
+
+commit 1e12bbea9e49cdd28e66a13f1e1cbc353ae86992
+Author: David <doninahuaman@gmail.com>
+Date:   Sun Apr 28 18:36:12 2024 -0500
+
+    Inicialización de mi ETL
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git commit -am "Uniendo Base Tickets Historico y Actual"
+[master 9325ab2] Uniendo Base Tickets Historico y Actual
+ 1 file changed, 386 insertions(+)
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yelow)%d%C(reset)' --all"
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git lg
+error: invalid color value: bold yelow
+fatal: unable to parse --pretty format
+*
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git lg
+* 9325ab2 - (65 minutes ago) Uniendo Base Tickets Historico y Actual - David (HEAD -> master)
+* 0a0a153 - (4 hours ago) Lectura txt Sin Encabezado - David
+* 1e12bbe - (4 hours ago) Inicialización de mi ETL - David
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git commit -am "Transformando la Base Tickets"
+[master 4346d86] Transformando la Base Tickets
+ 1 file changed, 398 insertions(+), 55 deletions(-)
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git lg
+* 4346d86 - (4 seconds ago) Transformando la Base Tickets - David (HEAD -> master)
+* 9325ab2 - (66 minutes ago) Uniendo Base Tickets Historico y Actual - David
+* 0a0a153 - (4 hours ago) Lectura txt Sin Encabezado - David
+* 1e12bbe - (4 hours ago) Inicialización de mi ETL - David
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git reset --hard 0a0a153
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git lg
+
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git reflog
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git reset --hard 4346d86
+(vEdicion2) PS E:\PYTHON FOR ETL\ADDC\Python for ETL\2da_Edicion\S3> git reset --soft 4346d86
